@@ -1,5 +1,38 @@
-/* Need to test if text follows google fonts bc I told it to, or if that link has precedence over my stylesheet */
-
 body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1,
+h2,
+h3 {
     font-family: Syne;
 }
+
+h1 {
+    font-weight: 800;
+    font-size: 35px;
+    letter-spacing: -2px;
+    line-height: 46px;
+}
+
+img {
+    width: 350px;
+    height: auto;
+}
+
+.sweet-escape {
+    width: 600px;
+}
+
+/* 
+Assets for future addition
+-Background image (palm leaves): https://assets.api.uizard.io/api/cdn/stream/9150b32c-cf28-4c4d-87f5-79f3746a783a.jpg
+-Sweet Escape dock and mountains: https://images.unsplash.com/photo-1529573813483-53bd9ede667e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDUzMDJ8MHwxfHNlYXJjaHwyMXx8ZGFyayUyMHRyb3BpY2FsfGVufDF8fHx8MTY2OTYxODg3OA&ixlib=rb-4.0.3&q=80&w=1080 
+-
+
+
+
+
+*/
