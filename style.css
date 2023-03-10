@@ -1,0 +1,5 @@
+/* Need to test if text follows google fonts bc I told it to, or if that link has precedence over my stylesheet */
+
+body {
+    font-family: Syne;
+}
