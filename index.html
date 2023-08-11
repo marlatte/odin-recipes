@@ -1,20 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Odin's Archipelago</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:ital,wght@0,400;0,500;0,600;0,700;0,800&display=swap">
-    </head>
-    <body>
-        <h1>Archipelago</h1> <!-- Move this into a flex nav with menu options on the far right by setting margin-right: auto on the flex item. -->
-        <img class="sweet-escape" src="https://images.unsplash.com/photo-1529573813483-53bd9ede667e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDUzMDJ8MHwxfHNlYXJjaHwyMXx8ZGFyayUyMHRyb3BpY2FsfGVufDF8fHx8MTY2OTYxODg3OA&ixlib=rb-4.0.3&q=80&w=1080" alt="A lakeside dock at dusk with a Sweet Escape sign">
 
-        <h2>Recipes</h2>
-        <ul>
-            <li><h2><a href="./recipes/rosemary-paprika-chicken.html">Rosemary-Paprika Chicken</a></h2></li>
-            <li><h2><a href="./recipes/lemon-chicken-piccata.html">Lemon Chicken Piccata</a></h2></li>
-            <li><h2><a href="./recipes/chicken-shawarma.html">Chicken Shawarma</a></h2></li>
-        </ul>
-    </body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0">
+	<title>Valhalla's Kitchen</title>
+	<link rel="stylesheet"
+		  href="style.css">
+	<link rel="stylesheet"
+		  href="https://fonts.googleapis.com/css2?family=Syne:ital,wght@0,400;0,500;0,600;0,700;0,800&display=swap">
+	<link rel="stylesheet"
+		  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<h1>Valhalla's Kitchen</h1>
+			<h3>Gods get mighty hungry</h3>
+		</div>
+	</header>
+
+	<main>
+		<h2>Recipes</h2>
+		<ul>
+			<li>
+				<a id="rosemary-paprika"
+				   href="./recipes/rosemary-paprika-chicken.html">
+					<img src="https://assets.api.uizard.io/api/cdn/stream/44b5cff5-ea09-4681-a084-1ae9182f588e.jpeg"
+						 alt="A chicken and potatoes dish with onions and peppers.">
+					<p>Rosemary-Paprika Chicken</p>
+				</a>
+			</li>
+			<li>
+				<a id="lemon-piccata"
+				   href="./recipes/lemon-chicken-piccata.html">
+					<img src="https://asimplepalate.com/wp-content/uploads/2019/05/lemon-chicken-piccata-7-1365x2048.jpg"
+						 alt="Chicken in sauce with lemon in a pan.">
+					<p>Lemon Chicken Piccata</p>
+				</a>
+			</li>
+			<li>
+				<a id="shawarma"
+				   href="./recipes/chicken-shawarma.html">
+					<img src="https://www.allrecipes.com/thmb/HZrOv2wYKrKzDk3UKx_iSAo89pg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6584662-97f73a0a631b4510b074bb26de89fc74.jpg"
+						 alt="A plate of chicken and vegetables with a yogurt marinade">
+					<p>Chicken Shawarma</p>
+				</a>
+			</li>
+		</ul>
+	</main>
+	<footer>
+		<div class="footer-text">
+			<div id="my-name">&copy; 2023 Walker Marlatt</div>
+			<div>The Odin Project</div>
+		</div>
+		<a href="https://github.com/marlatte"
+		   target="_blank">
+			<i class="fa fa-github"
+			   style="font-size:34px"></i>
+		</a>
+	</footer>
+</body>
+
 </html>
